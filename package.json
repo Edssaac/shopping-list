@@ -1,0 +1,47 @@
+{
+    "name": "shopping-list",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "db:generate": "drizzle-kit generate",
+        "db:init": "node scripts/init-database.mjs",
+        "db:migrate": "drizzle-kit migrate",
+        "db:setup": "npm run db:init && npm run db:migrate",
+        "cap:assets-android": "npx capacitor-assets generate --android",
+        "cap:sync-android": "npx cap sync android",
+        "cap:open-android": "npx cap open android"
+    },
+    "dependencies": {
+        "@capacitor-community/sqlite": "^8.1.1",
+        "@capacitor/android": "^8.5.0",
+        "@capacitor/app": "^8.1.1",
+        "@capacitor/core": "^8.5.0",
+        "@capacitor/ios": "^8.5.0",
+        "@nuxtjs/color-mode": "^4.0.1",
+        "@tailwindcss/vite": "^4.3.3",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "drizzle-orm": "^1.0.0-rc.4",
+        "lucide-vue-next": "^1.0.0",
+        "nuxt": "^4.5.0",
+        "reka-ui": "^2.10.1",
+        "tailwind-merge": "^3.6.0",
+        "tailwindcss": "^4.3.3",
+        "typescript": "^7.0.2",
+        "vue": "^3.5.40",
+        "vue-router": "^5.2.0"
+    },
+    "devDependencies": {
+        "@capacitor/assets": "^3.0.5",
+        "@capacitor/cli": "^8.5.0",
+        "@types/node": "^26.4.0",
+        "drizzle-kit": "^1.0.0-rc.4",
+        "prettier": "^3.6.2",
+        "prettier-plugin-tailwindcss": "^0.6.14"
+    }
+}

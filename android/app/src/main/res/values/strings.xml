@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="title_activity_main">Lista de Compras</string>
+    <string name="package_name">com.edssaac.shoppinglist.app</string>
+    <string name="custom_url_scheme">com.edssaac.shoppinglist.app</string>
+</resources>

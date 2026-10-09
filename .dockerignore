@@ -1,0 +1,9 @@
+node_modules
+.nuxt
+.output
+.git
+dist
+
+android/.gradle
+android/build
+android/app/build
